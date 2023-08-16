@@ -1,0 +1,244 @@
+tractors = {
+	limit = { combustion_engine = 1 }
+	chance = {
+		base = 3
+		modifier = {
+			factor = 2
+			average_consciousness = 2
+		}
+		modifier = { 
+			factor = 2
+			economic_policy = laissez_faire
+		}
+	}
+	effect = {
+		farm_rgo_eff = 0.05
+	}
+}
+prophylaxis_against_malaria = {
+	limit = { medicine = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			inorganic_chemistry = 1
+		}		
+		modifier = {
+			factor = 3
+			colonial_nation = yes
+		}
+	}
+	effect = {
+		land_attrition = -0.05 
+		soldier_to_pop_loss = 0.01
+		colonial_life_rating = -5
+	}
+}
+nitroglycerin = {
+	limit = { inorganic_chemistry = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			military_statistics = 1
+		}
+		modifier = {
+			factor = 2
+			scientific_management = 1
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			explosives = 0.02
+		} 
+			mine_RGO_eff = 0.5				
+	}
+}
+cracking = {
+	limit = { organic_chemistry = 1 }
+	chance = {
+		base = 6
+		modifier = {
+			factor = 2
+			invention = oil_pumping_machinery
+		}
+		modifier = {
+			factor = 2
+			management_strategy = 1
+		}
+	}
+	effect = {
+		activate_building = fuel_refinery 
+	}
+}
+machine_tools = {
+	limit = { interchangeable_parts = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = precision_work
+		}
+		modifier = {
+			factor = 2
+			early_railroad = 1
+		}
+	}
+	effect = {
+		factory_goods_output = {
+			machine_parts = 0.1 
+		}
+		factory_throughput = 0.05		
+		mine_RGO_eff = 0.5					 
+	}
+}
+
+factories1 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = fabric_factory
+activate_building = cement_factory
+activate_building = glass_factory
+}
+}
+
+factories2 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = luxury_clothes_factory 
+}
+}
+factories3 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = luxury_furniture_factory
+}
+}
+factories4 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = steel_factory
+}
+}
+factories5 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = artillery_factory
+}
+}
+factories6 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = small_arms_factory
+}
+}
+
+factories7 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = furniture_factory
+}
+}
+factories8 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = paper_mill
+}
+}
+
+factories9 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = regular_clothes_factory
+}
+}
+factories10 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = explosives_factory
+}
+}
+factories11 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = ammunition_factory
+}
+}
+factories12 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = canned_food_factory
+}
+}
+factories13 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = liquor_distillery
+}
+}
+factories14 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = winery
+}
+}
+factories15 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = lumber_mill
+}
+}
+factories16 = { 
+limit = { publishing_industry = 1 }
+chance = { 
+base = 99
+}
+effect = {
+activate_building = fertilizer_factory
+}
+}

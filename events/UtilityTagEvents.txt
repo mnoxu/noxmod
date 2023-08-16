@@ -1,0 +1,116 @@
+country_event = {
+		id = 1000090
+		title = "AI Check every approx. 1 months"
+		desc = "Checking..."
+		
+		is_triggered_only = yes
+		
+		option = {
+			#low relations with UTI
+			any_country = {
+				limit = {
+					exists = yes
+				}
+				relation = { who = THIS value = -400 }
+			}
+			# if crisis is disabled
+			any_country = {
+				limit = {
+					exists = yes
+					has_global_flag = crisis_disabled	
+				}
+				any_state = { flashpoint_tension = -100 }
+			}
+			#cleanup bugged slave states
+			any_country = {
+				limit = {
+					any_state = { is_slave = yes }
+					slavery = no_slavery
+				}
+				any_state = {
+					limit = {
+						is_slave = yes
+					}
+					is_slave = no
+				}
+			}
+			#remove all sphere/influence
+			any_greater_power = {
+				diplomatic_influence = { who = THIS value = -400 }
+			}
+			#cleanup vassals with nonexistant overlords
+			any_country = {
+				limit = {
+					is_vassal = yes
+					exists = yes
+					overlord = { exists = no }
+				}
+			country_event = 1000091
+			}
+			#monthly substate payment
+			#substate payment
+			any_country = {
+				limit = {
+					exists = yes
+					OR = {
+						is_substate = yes
+						AND = {
+							is_vassal = yes
+							is_substate = no
+							total_pops = 250000
+						}
+					}
+					NOT = { has_country_flag = exempt_from_vassal_contribution }
+				}
+				random_owned = {
+					limit = {
+						owner = {
+							money = 100000
+						}
+					}
+					owner = {
+						treasury = -100000
+						overlord = { treasury = 100000 }
+					}
+				}
+			}
+			# stop vassal payments
+			any_country = {
+				limit = {
+					exists = yes
+					is_vassal = yes
+					overlord = { has_country_flag = vassals_dont_need_to_pay }
+				}
+				set_country_flag = exempt_from_vassal_contribution
+			}
+			#ghost units cleanup
+			any_country = {
+				limit = {
+					exists = no
+					is_greater_power = no
+					OR = {
+						is_mobilised = yes
+						total_amount_of_ships = 1
+					}
+				}
+			annex_to = FROM
+			}
+			UTI = { country_event = { id = 1000090 days = 30 } }
+		}
+	}
+country_event = {
+	id = 1000091
+	title = "Freedom!"
+	desc = "We have acquired independence!"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		overlord = { release_vassal = THIS }
+	}
+	
+	option = {
+		name = "Nice."
+	}
+}
+

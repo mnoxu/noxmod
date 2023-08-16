@@ -1,0 +1,31 @@
+country_event = {
+
+	id = 600331
+
+	trigger = {
+	ai = no
+   
+	civilized = yes
+	
+			NOT = { has_country_modifier = idea_timer }
+			
+	}
+ 
+	mean_time_to_happen =  {
+		days = 0
+	}
+
+	title = "EVTNAME600331"
+	desc = "EVTDESC600331"
+	picture = "Select"
+
+	option = {
+		name = "I will select it"
+ 
+		
+		
+
+
+		
+    }
+}

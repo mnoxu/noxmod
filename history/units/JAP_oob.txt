@@ -1,0 +1,12 @@
+
+	
+	leader = {
+		name = "Tokugawa Nariaki"
+		date = 1820.1.1
+		type = land
+		personality = defence_4.1
+		background = attack_4.1
+		prestige = 0.1
+	
+	}
+	

@@ -1,0 +1,193 @@
+political_decisions = {
+	see_ideas = {
+		alert = yes
+		picture = seeidea
+		potential = {
+		AND = {
+		ai = no
+			NOT = { has_country_flag = let_me_see_ideas }
+			civilized = yes
+			}
+		}
+	
+		allow = {
+			NOT = { has_global_flag = let_me_see_ideas }
+		}
+		
+		effect = {
+			set_country_flag = let_me_see_ideas
+		}
+	}
+		hide_ideas = {
+		picture = hideidea
+		potential = {
+			has_country_flag = let_me_see_ideas
+		}
+	
+		allow = {
+			
+		}
+		
+		effect = {
+			clr_country_flag = let_me_see_ideas
+		}
+	}
+		idea_1 = {
+		potential = {
+			has_country_flag = let_me_see_ideas
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_order_1 }
+		}
+	
+		allow = {
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_order_1 }
+		}
+		
+		effect = {
+		add_country_modifier = {
+		name = idea_order_1
+		duration = -1 
+		}
+		
+		add_country_modifier = {
+		name = idea_timer
+		duration = 5474
+		}
+		
+		}
+	}
+	
+		idea_2 = {
+		potential = {
+			has_country_flag = let_me_see_ideas
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_economy }
+		}
+	
+		allow = {
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_economy }
+		}
+		
+		effect = {
+		add_country_modifier = {
+		name = idea_economy
+		duration = -1 
+		}
+		
+		add_country_modifier = {
+		name = idea_timer
+		duration = 5474
+		}
+		
+		}
+	}
+	
+		idea_3 = {
+		potential = {
+		    has_country_flag = let_me_see_ideas
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_navy }
+		}
+	
+		allow = {
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_navy }
+		}
+		
+		effect = {
+		add_country_modifier = {
+		name = idea_navy
+		duration = -1 
+		}
+		
+		add_country_modifier = {
+		name = idea_timer
+		duration = 5474
+		}
+		
+		}
+	}
+	
+		idea_4 = {
+		potential = {
+			has_country_flag = let_me_see_ideas
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_diplo }
+		}
+	
+		allow = {
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_diplo }
+		}
+		
+		effect = {
+		add_country_modifier = {
+		name = idea_diplo
+		duration = -1 
+		}
+		
+		add_country_modifier = {
+		name = idea_timer
+		duration = 5474
+		}
+		
+		}
+	}
+	
+		idea_5 = {
+		potential = {
+		    has_country_flag = let_me_see_ideas
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_industry }
+		}
+	
+		allow = {
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_industry }
+		}
+		
+		effect = {
+		add_country_modifier = {
+		name = idea_industry 
+		duration = -1 
+		}
+		
+		add_country_modifier = {
+		name = idea_timer
+		duration = 5474
+		}
+		
+		}
+	}
+	
+		idea_6 = {
+		potential = {
+		    has_country_flag = let_me_see_ideas
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_order_2 }
+		}
+	
+		allow = {
+			NOT = { has_country_modifier = idea_timer }
+			NOT = { has_country_modifier = idea_order_2 }
+		}
+		
+		effect = {
+		add_country_modifier = {
+		name = idea_order_2
+		duration = -1 }
+		
+		add_country_modifier = {
+		name = idea_timer
+		duration = 5474
+		}
+		
+		}
+	}
+	
+	
+    }
+
+}

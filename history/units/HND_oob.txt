@@ -1,0 +1,214 @@
+army = {
+	name = "stack1"
+	location = 1294
+	regiment = {
+		name= "1.cavalry"
+		type = cavalry
+		home = 1294
+	}
+
+	regiment = {
+		name= "2.cavalry"
+		type = cavalry
+		home = 1294
+	}
+
+	regiment = {
+		name= "3.cavalry"
+		type = cavalry
+		home = 1293
+	}
+
+	regiment = {
+		name= "4. cavalry"
+		type = cavalry
+		home = 1293
+	}
+
+    regiment = {
+		name= "5.cavalry"
+		type = cavalry
+		home = 1293
+	}
+	
+	regiment = {
+		name= "6.cavalry"
+		type = cavalry
+		home = 1292
+	}
+	
+	regiment = {
+		name= "7.cavalry"
+		type = cavalry
+		home = 1292
+	}
+	
+	regiment = {
+		name= "8. cavalry"
+		type = cavalry
+		home = 1295
+	}
+
+	regiment = {
+		name= "9.cavalry"
+		type = cavalry
+		home = 1295
+	}
+	
+	regiment = {
+		name= "10.cavalry"
+		type = cavalry
+		home = 1295
+	}
+	
+}
+
+army = {
+	name = "stack2"
+	location = 1277
+	regiment = {
+		name= "1.cavalry"
+		type = cavalry
+		home = 1295
+	}
+
+	regiment = {
+		name= "2.cavalry"
+		type = cavalry
+		home = 1295
+	}
+
+	regiment = {
+		name= "3.cavalry"
+		type = cavalry
+		home = 1277
+	}
+
+	regiment = {
+		name= "4. cavalry"
+		type = cavalry
+		home = 1280
+	}
+
+    regiment = {
+		name= "5.cavalry"
+		type = cavalry
+		home = 1278
+	}
+	
+	regiment = {
+		name= "6.cavalry"
+		type = cavalry
+		home = 1285
+	}
+	
+	regiment = {
+		name= "7.cavalry"
+		type = cavalry
+		home = 1286
+	}
+	
+	regiment = {
+		name= "8. cavalry"
+		type = cavalry
+		home = 1283
+	}
+
+	regiment = {
+		name= "9.cavalry"
+		type = cavalry
+		home = 1283
+	}
+	
+	regiment = {
+		name= "10.cavalry"
+		type = cavalry
+		home = 1283
+	}
+	
+}
+
+army = {
+	name = "stack3"
+	location = 1268
+	regiment = {
+		name= "1.cavalry"
+		type = cavalry
+		home = 1268
+	}
+
+	regiment = {
+		name= "2.cavalry"
+		type = cavalry
+		home = 1268
+	}
+
+	regiment = {
+		name= "3.cavalry"
+		type = cavalry
+		home = 1268
+	}
+
+	regiment = {
+		name= "4. cavalry"
+		type = cavalry
+		home = 1267
+	}
+
+    regiment = {
+		name= "5.cavalry"
+		type = cavalry
+		home = 1267
+	}
+	
+	regiment = {
+		name= "6.cavalry"
+		type = cavalry
+		home = 1267
+	}
+	
+	regiment = {
+		name= "7.cavalry"
+		type = cavalry
+		home = 1265
+	}
+	
+	regiment = {
+		name= "8. cavalry"
+		type = cavalry
+		home = 1269
+	}
+
+	regiment = {
+		name= "9.cavalry"
+		type = cavalry
+		home = 1269
+	}
+	
+	regiment = {
+		name= "10.cavalry"
+		type = cavalry
+		home = 1270
+	}
+	
+}
+
+navy = {
+	name = "India strong"
+	location = 1292 #Malta
+	ship = {
+		name= "ringiringiring1"
+		type = clipper_transport
+	}
+   
+   ship = {
+		name= "ringiringiring2"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "ringiringiring3"
+		type = clipper_transport
+	}
+
+}

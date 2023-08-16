@@ -1,0 +1,77 @@
+country_event = {
+
+	id = 600160
+    fire_only_once = no
+	
+	trigger = {
+	AND = {
+	ai = no
+	civilized = yes
+	NOT = { tag = JAN } 
+	}
+		not = {
+			has_country_flag = existing_country
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	title = "EVTNAME600160"
+	desc = "EVTDESC600160"
+	picture = "start1"
+
+	option = {
+		name = "Hurrah for $COUNTRY$!"
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			militancy = -2
+		}
+		leadership = 100
+		ammunition = 100
+		small_arms = 100
+		artillery = 25
+		canned_food = 100
+		wine = 100
+		luxury_clothes = 25
+		machine_parts = 500
+		clipper_convoy = 50
+		wool = 50
+		liquor = 100
+		treasury = 50000
+	    set_country_flag = existing_country
+		
+    }
+}
+
+country_event = {
+	id = 600000
+#	allow_multiple_instances = no
+   picture = "ozdag"
+	trigger = {
+	ai = no
+	NOT = {
+		OR = {
+			#add tags of countries with specific events here
+			has_leader = "Umit Ozdag"
+		}
+		tag = JAN
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "Onun zamani/mi?"
+	desc = "NOX dualarimiza cevap verdi"
+	immediate = {
+		define_general = {
+			name = "Umit Ozdag"
+			personality = defence_3.1
+			background = attack_3.1
+		}
+	}
+	option = {
+		name = "Zamani geldi"		
+	}
+}
+}

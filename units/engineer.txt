@@ -1,0 +1,41 @@
+engineer = {
+	icon = 16
+	
+	type = land
+	sprite = Engineer
+	active = yes
+	unit_type = support
+	#Core Abilities
+	priority = 15
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 3.0
+	weighted_value = 4.0
+	floating_flag = no
+
+
+	#Building Costs
+	build_time = 120
+	build_cost = {
+		canned_food = 5
+		explosives = 1
+		liquor = 10
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		explosives = 0.06 #0.008
+		canned_food = 0.01 #0.004
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 1
+	defence = 2
+	discipline = 1.0
+	support = 1.2
+	maneuver = 1
+	siege = 1
+
+}

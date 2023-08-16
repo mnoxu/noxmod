@@ -1,0 +1,38 @@
+
+country_event = {
+
+	id = 600997
+    fire_only_once = no
+	
+	trigger = {
+	ai = no
+	badboy = 1.2
+	
+			
+            NOT = { has_country_modifier = badboy_sanctions }
+	}
+ 
+	mean_time_to_happen =  {
+		days = 2
+	}
+
+	title = "EVTNAME600997"
+	desc = "EVTDESC600997"
+	picture = "badboy"
+
+	option = {
+		name = "Bad Boy"
+
+		 
+		
+		
+		 add_country_modifier = {
+		 name = badboy_sanctions
+		 duration = 1095 }
+			
+
+		
+    }
+	}
+	
+	

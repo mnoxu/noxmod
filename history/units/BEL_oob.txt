@@ -1,0 +1,172 @@
+leader = {
+	name = "Lambert Nypels"
+	date = 1830.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.171
+	prestige = 0.1
+}
+
+leader = {
+	name = "Louis Evain"
+	date = 1831.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_2.171
+	prestige = 0.1
+}
+
+leader = {
+	name = "Goblet"
+	date = 1831.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.171
+	prestige = 0.1
+}
+
+leader = {
+	name = "Leopold I"
+	date = 1831.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.171
+	prestige = 0.5
+}
+
+leader = {
+	name = "Albert Prisse"
+	date = 1834.1.1
+	type = land
+	personality = defence_3.1
+	background = attack_minus_3.5
+	prestige = 0.1
+}
+
+army = {
+	name = "IV.Korps"
+	location = 387
+	regiment = {
+		name= "1.infantry"
+		type = infantry
+		home = 387
+	}
+
+	regiment = {
+		name= "2.infantry"
+		type = infantry
+		home = 387
+	}
+
+	regiment = {
+		name= "3.infantry"
+		type = infantry
+		home = 387
+	}
+
+	regiment = {
+		name= "1.artillery"
+		type = artillery
+		home = 395
+	}
+
+	regiment = {
+		name= "4.infantry"
+		type = infantry
+		home = 392
+	}
+
+	regiment = {
+		name= "2.artillery"
+		type = artillery
+		home = 392
+	}
+
+	regiment = {
+		name= "3.artillery"
+		type = artillery
+		home = 394
+	}
+
+    regiment = {
+		name= "4.artillery"
+		type = artillery
+		home = 398
+	}
+
+regiment = {
+		name= "5.artillery"
+		type = artillery
+		home = 396
+	}
+	
+	regiment = {
+		name= "1.hussar"
+		type = hussar
+		home = 393
+	}
+	
+
+}
+
+army = {
+	name = "IV.Korps"
+	location = 391
+	regiment = {
+		name= "1.artillery"
+		type = artillery
+		home = 391
+	}
+
+	regiment = {
+		name= "2.artillery"
+		type = artillery
+		home = 390
+	}
+
+	regiment = {
+		name= "3.artillery"
+		type = artillery
+		home = 389
+	}
+
+    regiment = {
+		name= "4.artillery"
+		type = artillery
+		home = 388
+	}
+
+regiment = {
+		name= "5.artillery"
+		type = artillery
+		home = 388
+	}
+	
+	regiment = {
+		name= "1.hussar"
+		type = hussar
+		home = 390
+	}
+	
+
+}
+
+navy = {
+	name = "Belgische Koninklijk Marine"
+	location = 388
+	ship = {
+		name= "1e Transport Flottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2e Transport Flotille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3e Transport Flotille"
+		type = clipper_transport
+	}
+
+}

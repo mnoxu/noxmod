@@ -1,0 +1,136 @@
+political_decisions = {	
+	
+	form_china_p1 = { 
+  		potential = {
+  			tag = GXI
+  		}
+  		
+  		allow = {
+  			NOT = { war = yes }
+  			CHI = {
+  				all_core = {
+  					OR = {
+  						owned_by = THIS
+  						owner = {
+  							in_sphere = THIS
+  						}
+  					}
+  				}
+  			}
+  		}
+  		effect = {
+  			prestige = 30
+  			change_tag = GCN 
+			add_accepted_culture = beifaren			
+  			any_country = {
+  				limit = {
+  					OR = {
+  						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+						primary_culture = tibetan
+  					}
+  					in_sphere = THIS
+  					NOT = {
+  						tag = THIS
+  					}
+  				}
+				inherit = THIS
+  			}
+  			capital = 1612
+			
+			add_accepted_culture = manchu
+			
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+	
+	
+remove_china_cores_p1 = { 
+  		potential = {
+  			tag = GCN
+			
+			NOT = { has_country_flag = remove_china_cores }
+  		}
+  		
+  		allow = {
+  			NOT = { war = yes }
+  			
+  		}
+  		effect = {
+  			
+			any_owned = { 
+			remove_core = CHI} 
+			
+			any_owned = {
+			remove_core = GXI}
+			
+			any_owned = {
+			add_core = GCN}
+			
+			
+			
+			
+			
+			set_country_flag = remove_china_cores
+			
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+	
+	
+		form_china_p22 = { 
+  		potential = {
+  			tag = CHI
+  		}
+  		
+  		allow = {
+  			NOT = { war = yes }
+  			GXI = {
+  				all_core = {
+  					OR = {
+  						owned_by = THIS
+  						owner = {
+  							in_sphere = THIS
+  						}
+  					}
+  				}
+  			}
+  		}
+  		effect = {
+  			prestige = 30
+  			change_tag = GCN 
+			add_accepted_culture = nanfaren 
+			add_accepted_culture = manchu			
+  			any_country = {
+  				limit = {
+  					OR = {
+  						is_culture_group = chinese
+						primary_culture = mongol
+						primary_culture = manchu
+						primary_culture = tibetan
+  					}
+  					in_sphere = THIS
+  					NOT = {
+  						tag = THIS
+  					}
+  				}
+				inherit = THIS
+  			}
+			
+		}
+  		ai_will_do = {
+  			factor = 1
+  		}
+	}
+	
+	
+	
+	
+	
+}
+
