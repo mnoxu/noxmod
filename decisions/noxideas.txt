@@ -59,6 +59,7 @@ political_decisions = {
 	}
 	
 		idea_2 = {
+		picture = eco
 		potential = {
 			has_country_flag = let_me_see_ideas
 			NOT = { has_country_modifier = idea_timer }
@@ -85,6 +86,7 @@ political_decisions = {
 	}
 	
 		idea_3 = {
+		picture = navy
 		potential = {
 		    has_country_flag = let_me_see_ideas
 			NOT = { has_country_modifier = idea_timer }
@@ -111,6 +113,7 @@ political_decisions = {
 	}
 	
 		idea_4 = {
+		picture = diplo
 		potential = {
 			has_country_flag = let_me_see_ideas
 			NOT = { has_country_modifier = idea_timer }
@@ -137,6 +140,7 @@ political_decisions = {
 	}
 	
 		idea_5 = {
+		picture = indus
 		potential = {
 		    has_country_flag = let_me_see_ideas
 			NOT = { has_country_modifier = idea_timer }

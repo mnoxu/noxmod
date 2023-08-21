@@ -21,7 +21,7 @@
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = danish
 		religion = protestant
 		size = 1100
 	}
@@ -41,7 +41,7 @@
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = danish
 		religion = protestant
 		size = 300
 	}
@@ -61,7 +61,7 @@
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = danish
 		religion = protestant
 		size = 300
 	}
@@ -81,7 +81,7 @@
 	}
 
 	farmers = {
-		culture = native_american_minor
+		culture = danish
 		religion = protestant
 		size = 200
 	}

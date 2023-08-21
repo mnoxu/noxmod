@@ -6,6 +6,7 @@ political_decisions = {
 										
 					NOT = { has_global_flag = annex_egypt }
 					
+					exists = EGY
 
 				} 
 		allow = {
@@ -26,19 +27,10 @@ political_decisions = {
 				
 		}
 		effect = {
-			set_global_flag = annex_egypt
-			prestige = 50
-			any_country = {
-				limit = {
-					OR = {
-						primary_culture = misri
-						}
-					NOT = {
-						tag = THIS
-					}
-				}				
-				annex_to = THIS
-				}
+			prestige = 35
+			EGY = {
+				country_event = { id=700999 days=0 }
+			}
 
 
 		ai_will_do = {
@@ -57,7 +49,6 @@ political_decisions = {
 					
 					exists = EGY
 					
-					NOT = { has_global_flag = annex_egypt }
 					
 
 				} 

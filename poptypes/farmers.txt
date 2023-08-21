@@ -793,6 +793,18 @@ promote_to =
 	intellectual =
 	{
 		factor = 0.01
+		
+		modifier = {
+			factor = -100
+			location = {
+			is_colonial = yes
+			}
+			country = {
+			has_country_flag = no_colonial_clergy
+			}
+				
+		}
+		
 		group = {
 			modifier = {
 				factor = 0.5

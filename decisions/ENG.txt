@@ -197,4 +197,53 @@ political_decisions = {
 			set_country_flag = ian_would_be_proud
 		}
 	}
+	
+		annex_burma = {
+		picture = burma
+	   potential = {
+	
+	      AND = {
+		  
+	         BUR = { in_sphere = THIS }
+	    
+	               tag = ENG
+	  
+	                 war = no 
+	  
+	
+	 } 
+	
+	 }
+	
+	 allow = { 
+	
+	 invention = mission_to_civilize	 
+	 
+	 }
+	
+		effect = {
+			
+			inherit = BUR
+			
+			badboy = 5
+			
+			set_global_flag = inherit_burma
+			
+		}
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

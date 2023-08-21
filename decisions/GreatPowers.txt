@@ -153,7 +153,7 @@ political_decisions = {
 				secede_province = THIS
 			}
 			
-			prestige = 20
+			prestige = 10
 			
 			set_global_flag = intervene_lagos
 			
@@ -161,8 +161,46 @@ political_decisions = {
 	}
 	
 	
+	inherit_cambodia = {
+	picture = cambodia
+	   potential = {
 	
+	      AND = {
+	  ANN_1383 = { owned_by = THIS }
+	  
+	  war = no 
+	  
+	  total_amount_of_ships = 100
+	  
+	  is_greater_power = yes
+	  
+	  naval_statistics = 1
+	  
+	  iron_steamers = 1
+	  
+	  NOT = { has_global_flag = inherit_cambodia }
 	
+	 } 
+	
+	 }
+	
+	 allow = { 
+	
+	 ANN_1383 = { NOT = { owned_by = DAI } } 
+	
+	 }
+	
+		effect = {
+			
+			inherit = CAM
+			
+			prestige = 10
+			
+			set_global_flag = inherit_cambodia
+			
+		}
+	
+	}
 	
 	
 }

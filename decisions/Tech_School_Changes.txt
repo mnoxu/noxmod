@@ -1,9 +1,50 @@
 political_decisions = {
+
+	change_tech_school_on = {
+		alert = yes
+		picture = lightbulb_off
+		potential = {
+			NOT = {	has_country_flag = tech_school_change }
+			civilized = yes
+		}
+		
+		allow = {
+			NOT = { has_country_modifier = academic_confusion }
+			war = no
+			NOT = { num_of_revolts = 1 }
+		}
+		
+		effect = { set_country_flag = tech_school_change }
+		
+		ai_will_do = { 
+			factor = 1
+						
+		}
+	}
+
+	change_tech_school_off = {
+		alert = no
+		picture = lightbulb_on
+		potential = {
+			has_country_flag = tech_school_change
+		}
+		
+		allow = { }
+		
+		effect = { clr_country_flag = tech_school_change }
+		
+		ai_will_do = { factor = 0 }
+	}
+
+
+
+
 	switch_to_army_tech = {
 		alert = no
 		potential = {
 			civilized = yes
 			tech_school = traditional_academic
+			has_country_flag = tech_school_change
 		}
 		allow = {
 			prestige = 30
@@ -23,6 +64,7 @@ political_decisions = {
 			civilized = yes
 			colonial_nation = yes
 			tech_school = traditional_academic
+			has_country_flag = tech_school_change
 		}
 		allow = {
 			prestige = 30
@@ -42,10 +84,10 @@ political_decisions = {
 		potential = {
 			civilized = yes
 			tech_school = traditional_academic
+			has_country_flag = tech_school_change
 		}
 		allow = {
-			prestige = 45
-			average_consciousness = 4
+			prestige = 30
 		}
 		effect = {
 			add_country_modifier = {
@@ -60,6 +102,7 @@ political_decisions = {
 		potential = {
 			civilized = yes
 			tech_school = traditional_academic
+			has_country_flag = tech_school_change
 		}
 		allow = {
 			prestige = 45
@@ -78,6 +121,7 @@ political_decisions = {
 		potential = {
 			civilized = yes
 			tech_school = traditional_academic
+			has_country_flag = tech_school_change
 		}
 		allow = {
 			prestige = 30
@@ -98,10 +142,11 @@ political_decisions = {
 				has_country_modifier = academic_confusion
 			}
 			civilized = yes
+			has_country_flag = tech_school_change
 		}
 		
 		allow = {
-			prestige = 45
+			prestige = 30
 		}
 		effect = {
 			add_country_modifier = {

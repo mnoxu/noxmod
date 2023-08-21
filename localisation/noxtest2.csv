@@ -36,3 +36,15 @@ EVTDESC600999;WE NEED THIS NERF BRO U NEED TO UNDERSTAND ME. Just think about it
 EVTOPTA600999;Sorry;;;;;;x;;;;
 EVTDESC600997;hihi huhuuuuuuu cry bout it hihihiiii.;;;;;;x;;;;
 EVTNAME600997;You've been a naughty boy havent you;;;;;;x;;;;
+badboy_sanctions;Lack of International Code;;;;;;x;;;;
+desc_badboy_sanctions;i cant allow it. Everyone MUST know their limits.;;;;;;x;;;;
+EVTNAME700999;Our demands from  Egypt.;;;;;;x;;;;
+EVTDESC700999;Egypt path. There is no path if you are player. Just fight with Ottoman.;;;;;;x;;;;
+inherit_cambodia_title;Inherit Cambodia.;;;;;;x;;;;
+inherit_cambodia_desc;You took Saigon region from Dai Nam. Right now you can annex Dai Nam's old puppet.;;;;;;x;;;;
+annex_burma_title; Annex Burma;;;;;;x;;;;
+annex_burma_desc; Until 1850's we kept our interests in Burma. So, right now they can join our British Empire.;;;;;;x;;;;
+change_tech_school_on_title;§R Show Tech Schools;;;;;;x;;;;
+change_tech_school_on_desc; ;;;;;;x;;;;
+change_tech_school_off_desc; ;;;;;;x;;;;
+change_tech_school_off_title;§R Stop showing Tech Schools;;;;;;x;;;;

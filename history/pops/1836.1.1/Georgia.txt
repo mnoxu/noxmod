@@ -557,49 +557,49 @@
 	}
 
 	intellectual = {
-		culture = georgian
+		culture = turkish
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = georgian
+		culture = turkish
 		religion = orthodox
 		size = 200
 	}
 
 	farmers = {
-		culture = georgian
+		culture = turkish
 		religion = orthodox
 		size = 3725
 	}
 
 	aristocrats = {
-		culture = georgian
+		culture = turkish
 		religion = sunni
 		size = 200
 	}
 
 	intellectual = {
-		culture = georgian
+		culture = turkish
 		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = georgian
+		culture = turkish
 		religion = sunni
 		size = 600
 	}
 
 	soldiers = {
-		culture = georgian
+		culture = turkish
 		religion = sunni
 		size = 125
 	}
 
 	farmers = {
-		culture = georgian
+		culture = turkish
 		religion = sunni
 		size = 11250
 	}

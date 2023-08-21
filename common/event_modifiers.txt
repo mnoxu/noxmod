@@ -796,17 +796,16 @@ capital_supply = {
 }
 
 badboy_sanctions = {
-administrative_efficiency_modifier = -0.1
-tax_efficiency = -0.1
-factory_throughput = -0.1
+administrative_efficiency_modifier = -0.2
+tax_efficiency = -0.2
+factory_throughput = -0.3
 research_points = -0.15
-immigrant_push = 0.02
-global_immigrant_attract = 0.02
+immigrant_push = 0.04
 mobilisation_size = -0.2
 org_regain = -0.3
 prestige = -0.05
-war_exhaustion = 0.36
-goods_demand = 0.01
+war_exhaustion = 1.36
+goods_demand = 0.05
 icon = 2
 }
 
@@ -827,7 +826,7 @@ icon = 15
 idea_order_2 = {
 org_regain = 0.1
 supply_consumption = -0.2
-mobilization_impact = -0.15
+mobilization_impact = 0.10
 leadership_modifier = 0.05
 icon = 15
 }
@@ -840,21 +839,20 @@ icon = 9
 }
 
 idea_navy = {
-naval_organisation = 0.15
-naval_unit_start_experience = 20
+naval_organisation = 0.05
+naval_unit_start_experience = 10
 local_repair = 0.2
 local_ship_build = -0.2
 icon = 15
 }
 
 idea_diplo = {
-badboy = -0.3
-global_immigrant_attract = 0.004
-global_assimilation_rate = 0.2
+badboy = -0.2
+global_immigrant_attract = 0.002
+global_assimilation_rate = 0.1
 diplomatic_points_modifier = 0.2
 influence_modifier = 0.2
 cb_generation_speed_modifier = 0.2
-education_efficiency_modifier = 0.05
 icon = 5
 }
 
