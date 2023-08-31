@@ -12,7 +12,7 @@ country_event = {
 	}
  
 	mean_time_to_happen =  {
-		days = 0
+		days = 30
 	}
 
 	title = "EVTNAME600331"
