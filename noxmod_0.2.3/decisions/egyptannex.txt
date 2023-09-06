@@ -1,0 +1,98 @@
+political_decisions = {
+	egypt_integration_p1 = {
+	picture = brazil_integration
+	potential = {
+					TAG = TUR
+										
+					NOT = { has_global_flag = annex_egypt }
+					
+					exists = EGY
+
+				} 
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			EGY = {
+					exists = yes
+					civilized = no
+					in_sphere = THIS
+				}
+				
+				NOT = { exists = NEJ }
+				NOT = { exists = HDJ }
+				
+				HDJ_1151 = { owned_by = THIS }
+				NEJ_1157 = { owned_by = THIS }
+				NEJ_1156 = { owned_by = THIS }
+				
+		}
+		effect = {
+			prestige = 35
+			EGY = {
+				country_event = { id=700999 days=0 }
+			}
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}
+
+
+	egypt_integration_p2 = {
+	picture = inheritegypt
+	potential = {
+					NOT = { tag = TUR }
+					
+					is_greater_power = yes
+					
+					exists = EGY
+					
+					
+
+				} 
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			invention = colonial_negotiations
+			EGY = {
+					exists = yes
+					civilized = no
+					in_sphere = THIS
+				}
+				
+				
+		}
+		effect = {
+			set_global_flag = annex_egypt
+			prestige = 50
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = misri
+						}
+					NOT = {
+						tag = THIS
+					}
+				}				
+				annex_to = THIS
+				}
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+}

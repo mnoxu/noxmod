@@ -1,0 +1,6 @@
+name = "noxmod_0.2.3"
+path = "mod/noxmod_0.2.3"
+user_dir = "noxmod_0.2.3"
+replace_path = "poptypes"
+replace_path = "history/wars"
+replace_path = "map"

@@ -1,0 +1,107 @@
+political_decisions = {
+	nv_switch_enable = {
+		alert = no
+		potential = {
+			NOT = {
+				has_country_flag = nv_switch_enabled
+			}
+			NOT = {
+				has_country_flag = picked_nv
+			}
+			
+		}
+		allow = {}
+		effect = {
+			set_country_flag = nv_switch_enabled
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	nv_switch_disable = {
+		alert = no
+		potential = {
+			has_country_flag = nv_switch_enabled
+			NOT = {
+				has_country_flag = picked_nv
+			}
+		}
+		allow = {}
+		effect = {
+			clr_country_flag = nv_switch_enabled
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	order_decision = {
+		alert = no
+		picture = norder
+		potential = {
+			has_country_flag = nv_switch_enabled
+			NOT = { has_country_modifier = nationalvalue_timer }
+			
+			NOT = { nationalvalue = nv_order }
+		}
+		allow = {}
+		effect = {
+			nationalvalue = nv_order
+			
+		add_country_modifier = {
+		name = nationalvalue_timer
+		duration = 10948
+		}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	liberty_decision = {
+		alert = no
+		picture = nliberty
+		potential = {
+			has_country_flag = nv_switch_enabled
+			NOT = { has_country_modifier = nationalvalue_timer }
+			
+			NOT = { nationalvalue = nv_liberty }
+		}
+		allow = {}
+		effect = {
+			nationalvalue = nv_liberty
+			
+		add_country_modifier = {
+		name = nationalvalue_timer
+		duration = 10948
+		}
+		
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	equality_decision = {
+		alert = no
+		picture = nequality
+		potential = {
+			has_country_flag = nv_switch_enabled
+			NOT = { has_country_modifier = nationalvalue_timer }
+			
+			NOT = { nationalvalue = nv_equality }
+		}
+		allow = {}
+		effect = {
+			nationalvalue = nv_equality
+			
+		add_country_modifier = {
+		name = nationalvalue_timer
+		duration = 10948
+		}
+			
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+		
