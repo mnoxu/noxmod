@@ -1,0 +1,78 @@
+country_event = {
+
+	id = 600460
+	title = "you are an AI"
+	desc = "AI DETECTED"
+	
+	trigger = {
+	AND = {
+	NOT = { TAG = CHI }
+	NOT = { TAG = GXI }
+	ai = yes
+	}
+	AND = {
+		 not = {
+		 	has_country_modifier = ai_buff
+		 }
+		
+		 NOT = { has_global_flag = ai_off }
+		}
+	}
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	picture = "panzerturtle"
+
+	option = {
+		name = "ai_buff"
+
+		
+             add_country_modifier = {
+				name = ai_buff
+				duration = -1
+		}
+		
+												
+		
+    }
+}
+
+country_event = {
+
+	id = 600560
+	title = "you are NOT an AI"
+	desc = "NOT AI DETECTED"
+	
+	trigger = {
+	AND = {
+	NOT = { TAG = CHI }
+	NOT = { TAG = GXI }
+	ai = no
+	}
+	AND = { 
+	
+			has_country_modifier = ai_buff
+			
+			NOT = { has_global_flag = ai_off } 
+			}
+	}
+ 
+	mean_time_to_happen =  {
+		days = 1
+	}
+
+	picture = "panzerturtle"
+
+	option = {
+		name = "ai_buff"
+
+		
+             remove_country_modifier = ai_buff
+		}
+		
+												
+		
+    }
+}
