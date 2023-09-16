@@ -14,7 +14,7 @@ gas_attack_capability = {
 	}
 }
 gas_defense_capability = {
-	limit = { infiltration = 1 }
+	limit = { military_directionism = 1 }
 	chance = {
 		base = 0
 		modifier = {

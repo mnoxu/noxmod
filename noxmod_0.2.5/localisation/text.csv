@@ -13292,6 +13292,7 @@ UCA_2197;Nicaragua;Nicaragua;Nicaragua;;Nicaragua;;;;;;;;;x;;;;
 UCA_2201;Costa Rica;Costa Rica;Costa Rica;;Costa Rica;;;;;;;;;x;;;;
 CLM_1723;Panama;Panama;Panama;;Panam?;;;;;;;;x;;;;
 SPA_2209;Greater Antilles;Grandes Antilles;Große Antillen;;Antillas Mayores;;;;;;;;;x;;;;
+CLM_2204;Panama;;;;;;;;;x;;;;
 URU_2344;Uruguay;Uruguay;Uruguay;;Uruguay;;;;;;;;;x;;;;
 ECU_2279;Ecuador;Equateur;Ecuador;;Ecuador;;;;;;;;;x;;;;
 HAI_2213;Hispaniola;Hispaniola;Hispaniola;;Española;;;;;;;;;x;;;;
@@ -14570,6 +14571,8 @@ experimental_psychology;Experimental Psychology;Psychologie expérimentale;Experi
 experimental_psychology_desc;Experimental Psychology;Psychologie expérimentale;Experimentalpsychologie;;Psicología experimental;;;;;;;;;x;;;;
 psychoanalysis;Psychoanalysis;Psychanalyse;Psychoanalyse;;Psicoanálisis;;;;;;;;;x;;;;
 psychoanalysis_desc;Psychoanalysis;Psychanalyse;Psychoanalyse;;Psicoanálisis;;;;;;;;;x;;;;
+psychological_intelligence;Psychological Intelligence;;;;;;;;;x;;;;
+psychological_intelligence_desc;Psychological Intelligence;;;;;;;;;x;;;;
 behaviorism;Behaviorism;Béhaviorisme;Verhaltensforschung;;Conductismo;;;;;;;;;x;;;;
 behaviorism_desc;Behaviorism;Béhaviorisme;Verhaltensforschung;;Conductismo;;;;;;;;;x;;;;
 mass_advertising;Mass Advertising;Publicit?de masse;Massenwerbung;;Publicidad de masas;;;;;;;;;x;;;;
