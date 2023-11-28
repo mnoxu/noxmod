@@ -1,0 +1,71 @@
+country_event = {
+
+	id = 700999
+	title = "EVTNAME700999"
+	desc = "EVTDESC700999"
+	is_triggered_only = yes
+
+
+	picture = "egy1"
+
+	option = {
+		name = "FUCK NO! WE NEED TO FIGHT"
+												
+		
+		war = {
+	 target = FROM
+	 attacker_goal = { casus_belli = cut_down_to_size }
+	 attacker_goal = { casus_belli = demand_reperations }
+	 defender_goal = { casus_belli = conquest }
+	 call_ally = yes
+        }
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+    }
+	
+	
+	option = {
+	name = "We will do as told"
+	
+	FROM = {
+	inherit = THIS 
+	}
+}
+	
+}
+
+country_event = {
+
+	id = 700337
+	title = "ITALY CIVIL WAR !"
+	desc = "Italy civil war started.!"
+	is_triggered_only = yes
+
+
+	picture = "sda"
+
+	option = {
+		name = "WE WILL FIGHT AS WE TOLD"
+												
+		
+		war = {
+	 target = FROM
+	 attacker_goal = { casus_belli = conquest }
+	 defender_goal = { casus_belli = conquest }
+	 call_ally = yes
+        }
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+    }
+	
+	
+}
+	
+}
+

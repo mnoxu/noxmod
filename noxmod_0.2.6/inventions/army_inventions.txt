@@ -1,0 +1,18 @@
+gas_attack_capability = {
+	limit = { military_directionism = 1 }
+	chance = {
+		base = 100			
+	}
+	effect = {
+		gas_attack = yes
+	}
+}
+gas_defense_capability = {
+	limit = { military_directionism = 1 }
+	chance = {
+		base = 100		
+	}
+	effect = {
+		gas_defence = yes
+	}
+}

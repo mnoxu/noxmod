@@ -1,0 +1,239 @@
+dummy;;;;;;;;;x
+NORMAL_WAR_NEGOTIATE_NAME;Negotiated Transfer;;;;;;;;;x
+NORMAL_WAR_TREATY_PORT_NAME; The $ORDER$$FIRST$-$SECOND$ War.;;;;;;;;;;;;;;;;;;;;x,,,
+ethiopian;Ethiopian;;;;;;;;;x
+deep_defense;Deep Defense;;;;;;;;;x
+modern_defense;Modern Defense;;;;;;;;;x
+modern_divisional_tactics;Modern Divisional Tactics;;;;;;;;;x
+statistical_mobilization;Statistical Mobilization;;;;;;;;;x
+mobilization_logistics;Mobilization Logistics;;;;;;;;;x
+total_war_mobilization;Total War Mobilization;;;;;;;;;x
+deep_defense_desc;Deep Defense;;;;;;;;;x
+modern_defense_desc;Modern Defense;;;;;;;;;x
+modern_divisional_tactics_desc;Modern Divisional Tactics;;;;;;;;;x
+statistical_mobilization_desc;you get a mob stack, and you get a mob stack!;;;;;;;;;x
+mobilization_logistics;you get a mob stack, and you get a mob stack!;;;;;;;;;x
+total_war_mobilization_desc;you get a mob stack, and you get a mob stack!;;;;;;;;;x
+unciv_can_mobilize_yay;Unciv mobilization buff;;;;;;;;;x
+total_war;Total war;;;;;;;;;x
+total_war_desc;Full siege me down;;;;;;;;;x
+EGY_1751;Alexandria;;;;;;;;;x
+requesting_cease_fire;Requesting Cease Fire;;;;;;;;;x
+infantry_activation;Infantry;;;;;;;;;x
+mobilize_by_air;Airplane Mobilization;;;;;;;;;x
+mobilize_by_air_desc;you get a mob stack, and you get a mob stack!;;;;;;;;;x
+idea_timer;Nox Idea Timer;;;;;;;;;x
+idea_timer_desc;After this modifier expires, you may pick another nox idea.;;;;;;;;;x
+nationalvalue_timer; National Value Timer;;;;;;;;;x
+nationalvalue_timer_desc;After this modifier expires, you can change your national value.;;;;;;;;;x
+will_receive_title;Request A Grant;;;;;;;;;;;;x;;;
+will_receive_desc;This will request a grant from other players. Please note they must have choosen the decision to enable giving grants for the request to go through. It can be reversed at any time.;;;;;;;;;;;;x;;;
+#will_not_receive_title;Disable Receiving Grants;;;;;;;;;;;;x;;;
+#will_not_receive_desc;This will prohibit other players from giving us grants. It can be reversed at any time.;;;;;;;;;;;;x;;;
+will_give_title;Enable Giving Grants;;;;;;;;;;;;x;;;
+will_give_desc;This will allow us to give grants to other players. It must be activated before a player chooses to request grants. It can be reversed at any time.;;;;;;;;;;;;x;;;
+will_not_give_title;Disable Giving Grants;;;;;;;;;;;;x;;;
+will_not_give_desc;This will prevent us from getting events when other players request grants. It can be reversed at any time.;;;;;;;;;;;;x;;;
+i_wanna_men_title;Let me take more men;;;;;;;;;;;;x;;;
+i_wanna_men_desc;We are the Land of the Free and the Home of the Brave, a bastion of democracy in the world and a haven for its poor and dispossessed.;;;;;;;;;;;;;
+integrate_slovenes_and_croats_title;I Love Slovenes And Croats;;;;;;;;;;;;x;;;
+integrate_slovenes_and_croats_desc;I Love Slovenes And Croats so muchhhhhhh let me accept em;;;;;;;;;;;;x;;;
+abadon_french_title;Abadon French and accept Dutch;;;;;;;;;;;;x;;;
+abadon_french_desc;NO CROWN NO CROWN NO CROWN;;;;;;;;;;;;x;;;
+we_will_take_whats_ours_title; Mob Size + Mob impact;;;;;;;;;;;;x;;;
+we_will_take_whats_ours_desc; We will take whatever we need to take for our old glory;;;;;;;;;;;;x;;;
+we_will_take_whats_ours_mob;Take Back What's ours;;;;;;;;;;;;x;;;
+desc_we_will_take_whats_ours_mob;alsace.. my precious land;;;;;;;;;;;;x;;;
+korea_ours_title;Korea is our land;;;;;;;;;;;;x;;;
+korea_ours_desc;Will gain core on Korea;;;;;;;;;;;;x;;;
+desert_mice_title;Acceptance of distant peoples;;;;;;;;;;;;x;;;
+desert_mice_desc;Take accepted mashriqi and bedouin as Ottoman Empire;;;;;;;;;;;;x;;;
+NORMAL_WAR_CHINA_REUNIFY_NAME;China reunify;;;;;;;;;x
+WAR_TREATY_PORT_NAME;Take China's one of treaty ports;;;;;;;;;x
+take_capital;Take Capital;;;;;;;;;x
+take_capital_desc;Take country's capital;;;;;;;;;x
+take_capital_setup;Take $RECIPIENT$ 's capital;;;;;;;;;x
+take_capital_short;Take Capital;;;;;;;;;x
+china_must_come_together;China Unification;;;;;;;;;x
+china_must_come_together_setup; Take one of China states.;;;;;;;;;x
+negotiated_transfer_1850;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_1850_desc;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_1850_short;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_1850_setup;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_1870;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_1870_desc;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_1870_short;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_1870_setup;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_19xx;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_19xx_desc;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_19xx_short;Negotiated Transfer;;;;;;;;;x
+negotiated_transfer_19xx_setup;Negotiated Transfer;;;;;;;;;x
+minor_conquest;Minor Conquest;;;;;;;;;x
+minor_conquest_desc;Take minor states / countries;;;;;;;;;x
+minor_conquest_short;Minor Conquest;;;;;;;;;x
+minor_conquest_setup;ANNEX $RECIPIENT$;;;;;;;;;x
+china_treaty_port_desc;Take one of the Chinese Treaty Ports;;;;;;;;;x
+china_treaty_port;China Treaty Port;;;;;;;;;x
+china_treaty_port_short;China Treaty Port;;;;;;;;;x
+china_treaty_port_setup; Take $RECIPIENT$ port with decision after the war.;;;;;;;;;x
+conquest_low;Conquest low states;;;;;;;;;x
+conquest_low_desc;Conquest Low pop states / countries;;;;;;;;;x
+conquest_low_short;Conquest Low;;;;;;;;;x
+conquest_low_setup;ANNEX $RECIPIENT$;;;;;;;;;x
+dismantle_immigration_act;Dismantle Immigration;;;;;;;;;x
+dismantle_immigration_act_desc;Dismantle enemy and block their immigration for 4 years.;;;;;;;;;x
+dismantle_immigration_act_short;Dismantle Immigrations;;;;;;;;;x
+dismantle_immigration_act_setup; Dismantle $RECIPIENT$ and block their immigration for 4 years straight.;;;;;;;;;x
+demand_reperations;Demand Reperations;;;;;;;;;x
+demand_reperations_desc; Take enemy's money for 5 years.;;;;;;;;;x
+demand_reperations_short; Demand Reperations;;;;;;;;;x
+demand_reperations_setup; Take money from $RECIPIENT$;;;;;;;;;x
+china_must_come_together_desc;China Unification;;;;;;;;;x
+GCN;Great China;;;;;;;;;x
+EVTNAME555454;Capital supply is dead;;;;;;x;;;;
+EVTDESC555454;Take capital supply will change;;;;;;x;;;;
+EVTOPTA555454;Capital Supply is jover;;;;;;x;;;;
+EVTNAME545454;Capital Supply has been choosen;;;;;;x;;;;
+EVTDESC545454;Capital Supply is here here here.;;;;;;x;;;;
+EVTOPTA555454;Capital Supply is NOT jover;;;;;;x;;;;
+zbankers;Bankers;;;;;;;
+illuminati;Bankers;;;;;;;
+JAN;World Bank;;;;;;;
+JAN_anarcho_liberal;NWO;;;;;;;
+declare_neutrality_title;Declare Swiss Neutrality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+declare_neutrality_desc;The Swiss have little interest in the wars of Europe.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+abandon_neutrality_title;Abandon Swiss Neutrality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+abandon_neutrality_desc;The might of the Swiss army is such that we can repel our neighbors without difficulty. Our policy of neutrality is no longer necessary.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+declare_neutrality_generic_title;Declare Neutrality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+declare_neutrality_generic_desc;We have little interest in the wars of the world. By enacting this decision, we will no longer be able to use the following CBs: Conquest, Minor Conquest, Acquire State, Place in the Sun, Take Capital, Acquire Treaty Port, Demand Concession, Establish Protectorate and Install Communist Government. Other nations will no longer be able to use the following CBs against us: Conquest, Minor Conquest, Acquire State, Place in the Sun, Free Peoples, Liberate Country, Take Capital, and Install Communist Government;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+generic_neutrality;Political Neutrality;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;
+generic_neutrality_desc;Our country deliberately takes no sides. We do not go to war, even against those the world universally reviles, and thus expect that no one shall go to war against us. This means we will likely never achieve recognition as a 'mover and shaker', but it also protects us. We shall not abandon our principles for the sake of power and influence.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;
+abandon_neutrality_generic_title;Abandon Neutrality;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+abandon_neutrality_generic_desc;The might of our army is such that we can repel our neighbors without difficulty. Our policy of neutrality is no longer necessary.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+;;;;;;;;;x
+see_ideas_title;See Nox ideas;;;;;;;;;x
+see_ideas_desc;15 years cooldown ideas.;;;;;;;;;x
+hide_ideas_title;Hide Nox ideas;;;;;;;;;x
+hide_ideas_desc;Hide ideas;;;;;;;;;x
+idea_1_title;Army idea 1;;;;;;;;;x
+idea_2_title;Economic idea;;;;;;;;;x
+idea_3_title;Navy idea;;;;;;;;;x
+idea_4_title;Diplomatic idea;;;;;;;;;x
+idea_5_title;Industry idea;;;;;;;;;x
+idea_6_title;Army idea 2;;;;;;;;;x
+idea_1_desc;Modifier to improve army org. These may be picked every 15 years;;;;;;;;;x
+idea_2_desc;Modifier to improve Economy. These may be picked every 15 years;;;;;;;;;x
+idea_3_desc;Modifier to improve Navy. These may be picked every 15 years;;;;;;;;;x
+idea_4_desc;Modifier to improve Diplomacy. These may be picked every 15 years;;;;;;;;;x
+idea_5_desc;Modifier to improve Industry. These may be picked every 15 years;;;;;;;;;x
+idea_6_desc;Modifier to improve army quantity & logistics These may be picked every 15 years;;;;;;;;;x
+idea_order_1;Army idea 1;;;;;;;;;;;;x;;;
+desc_idea_order_1;Army idea 1;;;;;;;;;;;;x;;;
+idea_order_2;Army idea 2;;;;;;;;;;;;x;;;
+desc_idea_order_2;Army idea 2;;;;;;;;;;;;x;;;
+idea_economy;Economy idea ;;;;;;;;;;;;x;;;
+desc_idea_economy;Economy idea;;;;;;;;;;;;x;;;
+desc_idea_navy;Navy idea;;;;;;;;;;;;x;;;
+idea_navy; Navy idea;;;;;;;;;;;;x;;;
+desc_idea_diplo;Diplomacy idea;;;;;;;;;;;;x;;;
+idea_diplo;Diplomacy idea;;;;;;;;;;;;x;;;
+idea_industry;Industry idea;;;;;;;;;;;;x;;;
+desc_idea_industry;Industry idea;;;;;;;;;;;;x;;;
+;;;;;;;;;x;;;;;;;;;x
+EVTNAME600331;Select your national ideas in decisions that NOX gives you to choose.;;;;;;;;;;;;x;;;
+EVTDESC600331;This event will pop of again if you dont select your national idea in time for rememberence;;;;;;;;;;;;x;;;
+EVTNAME600160;Starting up events;;;;;;;;;;;;x;;;
+EVTDESC600160;This event gives starting needs to player by NOX;;;;;;;;;;;;x;;;
+inherit_tunis_title;Inherit Tunis;;;;;;;;;;;;x;;;
+inherit_tunis_desc;Will allow to inherit Tunis directly w/out event pop of;;;;;;;;;;;;x;;;
+form_south_germany_title;BECOME the South Germany.;;;;;;;;;;;;x;;;
+form_south_germany_desc;If you click this, there is no turn back TO Austuria - Hungary or Danubia. You need to click it for just MEME otherwise there is no real benefit for Austuria. It's a decision that i implemant for testing my capacity for writing events / decisions.;;;;;;;;;;;;x;;;
+integrate_maghrebi_title;Acceptance of other distant peoples;;;;;;;;;;;;x;;;
+integrate_maghrebi_desc; Egypt is ours. So wee need to take Misri accepted. Misri people is our people now.;;;;;;;;;;;;x;;;
+i_want_more_men;We are taking more men from the all World. ;;;;;;;;;;;;x;;;
+desc_i_want_more_men;For 30 years, our immigration ratio will be stronger than ever.;;;;;;;;;;;;x;;;
+china_nerf_p1;I did it... i liked it.. i was good at it...;;;;;;;;;;;;x;;;
+desc_china_nerf_p1;I DID IT FOR GAME HEALTH;;;;;;;;;;;;x;;;
+form_china_p22_title;Form GREAT CHINA by $COUNTRY$.;;;;;;;;;;;;x;;;
+form_china_p22_desc;Total classic.. like it...;;;;;;;;;;;;x;;;
+form_china_p1_title;Form GREAT CHINA by $COUNTRY$.;;;;;;;;;;;;x;;;
+form_china_p1_desc;Total classic.. like it...;;;;;;;;;;;;x;;;
+remove_china_cores_title; Remove other China cores.;;;;;;;;;;;;x;;;
+remove_china_cores_desc; Remove what's remains....;;;;;;;;;;;;x;;;
+china_nerf_p2;China nerf 2;;;;;;;;;x
+desc_china_nerf_p2; i am game balancing overhere mfer.;;;;;;;;;;;;x;;;
+china_port_desc; need for treaty declare war;;;;;;;;;;;;x;;;
+china_port; china port;;;;;;;;;;;;x;;;
+militancy1;Starting militancy;;;;;;;;;;;;x;;;
+militancy1_desc; ;;;;;;;;;;;;x;;;
+militancy2;1870's militancy;;;;;;;;;;;;x;;;
+militancy2_desc; ;;;;;;;;;;;;x;;;
+no_more_war_reperations_desc;Noone can take another war rep till this ends.;;;;;;;;;;;;x;;;
+no_more_war_reperations;Paying rep reps.;;;;;;;;;;;;x;;;
+dismantle_immigration_desc;They decided to close our ports. Right now we are not getting any immigration.
+dismantle_immigration;Dismantled immigration;;;;;;;;;;;;x;;;
+ai_buff_off_title;Disable AI's buff;;;;;;;;;;;;x;;;
+ai_buff_off_desc;Doing it might be risky for game health. ABSOLUTELY DO NOT CLICK IT IF YOU DONT HAVE AT LEAST 15 PLAYERS AND ALL MAJORS IS FILLED. (Clicking it in singleplayer is your decision.) This decision will only be visible till 1837. ;;;;;;;;;;;;x;;;
+treaty_port_buff;Buff the port by NOX;;;;;;;;;;;;x;;;
+treaty_port_buff_desc;We will make this port great again;;;;;;;;;;;;x;;;
+circassian_genocide;Circassian genocide;;;;;;;;;;;;x;;;
+circassian_genocide_desc;In 1831, the Russian government considered the destruction of the Natukhaj tribe in favor of populating their land on the northern coast of the Black Sea with Cossacks.;;;;;;;;;;;;x;;;
+irish_potato_blight;Potato Blight;;;;;;;;;;;;x;;;
+irish_potato_blight_desc;Ireland suffered a period of starvation, disease and emigration that became known as the Great Famine.;;;;;;;;;;;;x;;;
+negotiating_unequal_treaty;China port thing1;;;;;;;;;;;;x;;;
+negotiating_unequal_treaty_desc;China port things;;;;;;;;;;;;x;;;
+chinese_treaty_port;China port thing2;;;;;;;;;;;;x;;;
+chinese_treaty_port_desc;China port things;;;;;;;;;;;;x;;;
+negotiating_treaty;China port thing3;;;;;;;;;;;;x;;;
+negotiating_treaty_desc;China port things;;;;;;;;;;;;x;;;
+brazil_integration_title;Old crown.. will be ours again.;;;;;;;;;;;;x;;;
+brazil_integration_desc; Inherit brazil. There is no event or something. It's just inheriting. DIRECTLY.;;;;;;;;;;;;x;;;
+egypt_integration_p2_title;Annexation Egypt by $COUNTRY$.;;;;;;;;;;;;x;;;
+egypt_integration_p2_desc;Ottoman Empire lost their interest on Egypt. So, we can take advantage of Egypt.;;;;;;;;;;;;x;;;
+egypt_integration_p1_desc;As an Ottoman Padisah we need to take back our land back. Our ancestors took it. So, those land needs to be ours.;;;;;;;;;;;;x;;;
+egypt_integration_p1_title;Annex Egypt with war event.;;;;;;;;;;;;x;;;
+dummy;;;;;;;;;x
+nv_switch_enable_title;Make National Value Decisions Visible;;;;;;;;;x
+nv_switch_enable_desc; §RThese Decisions can changable every 30 years §!;;;;;;;;;x
+nv_switch_disable_title;Hide National Value Decisions;;;;;;;;;x
+nv_switch_disable_desc; ;;;;;;;;;x
+order_decision_title;Switch National Value to Order;;;;;;;;;x
+order_decision_desc; §G+0.05% §! Mobilization Size;;;;;;;;;x
+liberty_decision_title;Switch National Value to Liberty;;;;;;;;;x
+liberty_decision_desc; §G+0.03% §! Mobilization Size\n §G+10% §! Political & Social Reform Desire\n §G+10% §! Diplomatic Influence\n §G+5% §! Immigration Attraction\n §G+5% §! Research Points;;;;;;;;;x
+equality_decision_title;Switch National Value to Equality;;;;;;;;;x
+equality_decision_desc; §G+0.01% §! Mobilization Size\n §G+20% §! Political & Social Reform Desire\n §G+20% §! Diplomatic Influence\n §G+10% §! Immigration Attraction\n §G+10% §! Research Points;;;;;;;;;x
+noai_p1_title; Make AI Canada UK's puppet.;;;;;;;;;x
+noai_p1_desc; If there is no player in Canada, the decision was made for UK. You can use it until 1837.;;;;;;;;;x
+noai_p2_title; Make AI South Africa UK's puppet.;;;;;;;;;x
+noai_p2_desc; If there is no player in South Africa, the decision was made for UK. You can use it until 1837.;;;;;;;;;x
+noai_p3_title; Make AI Australia UK's puppet.;;;;;;;;;x
+noai_p3_desc; If there is no player in Australia, the decision was made for UK. You can use it until 1837.;;;;;;;;;x
+intervene_bata_title; Intervene Cabinda;;;;;;;;;x
+intervene_bata_desc; Take Cabinda as Spain.;;;;;;;;;x
+sicilia_irredenta_title;Irredenta Sicilia;;;;;;;;;x
+sicilia_irredenta_desc;Take all back old Italy cores back from Austuria.;;;;;;;;;x
+choose_capital_italian_title;Choose your capital as $COUNTRY$ ;;;;;;;;;x
+choose_capital_italian_desc;You can choose Naples, Rome or Turin;;;;;;;;;x
+unlogical_form_germany_title;Form Germany;;;;;;;;;x
+unlogical_form_germany_desc;This decision allow you to form Germany with no inheriting German minors. You will just become Germany instead of Prussia / NGF in 1880's.;;;;;;;;;x
+capital_supply;Capital Supply;;;;;;;;;x
+capital_supply_desc;Capital Supply for capital?;;;;;;;;;x
+dummy;;;;;;;;;x
+demote_crafts_title;Fire All Minority Craftsmen;;;;;;;;;x
+demote_crafts_desc;Fire all minority Craftsmen and demote them to farmers and labourers. This decision is only working on CORE provinces.;;;;;;;;;;;;;x
+EVTNAME12341234;Infamy Limit Violated!;;;;;;;;;;;;;x;;;;;;;;;;;
+EVTDESC12341234;You're the worst scum of the earth and you deserve what's coming for you;;;;;;;;;;;;;x;;;;;;;;;;;
+EVTNAME123412345;You're below infamy limit once again!;;;;;;;;;;;;;x;;;;;;;;;;;
+EVTDESC123412345;Good boy. Here's a cookie.;;;;;;;;;;;;;x;;;;;;;;;;;
+new_world_nation;New World Nation;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME600451;The Circassian Genocide;;;;;;;;;;;;;x
+EVTOPTA600451;A tragedy.;;;;;;;;;;;;;x
+EVTDESC600451;In April 1847, a group of Russian soldiers slaughtered hundreds of Circassians who had run out of ammunition, leaving "the mountain covered with corpses of bayoneted enemies", as reported by Ivan Drozdov. He tried to justify the extensive death and destruction that his army brought upon the Circassians: "Mankind has rarely experienced such disasters and to such extremes, but only horror could have an effect on the hostile mountaineers and drive them from the impenetrable mountain thickets." For the most part, the Imperial Russian army preferred to indiscriminately destroy areas where Circassians resided. In September 1847, after attacking a Circassian village and seeing some of its inhabitants flee into the forest, General Nikolay Yevdokimov bombarded that forest for six hours and ordered his men to kill on sight; he then set the forest on fire to make sure no survivors were left.;;;;;;;;;;;;;x
+EVTNAME1010011;The Great Irish Famine;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+EVTDESC1010011;For years, British committees have looked into the situation in Ireland and predicted disaster: the Irish farmers had become more and more dependent on their potato crop, and if anything were to happen to that crop it would cause not only widespread chaos throughout the Irish economy but famine and worse. Their predictions have come true. A blight has been spreading, leading to failure after failure of the Irish potato harvest. Proponents of laissez faire economics are adamant that the market will provide food for those affected, and that the government should not interfere in private enterprise. Others claim that no expense is too high to help the Irish, and that failure to act quickly will lead to starvation and resentment... but conservatives are quick to dismiss this as inflammatory nonsense.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+EVTNAME999997;Province Resource Change;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+EVTDESC999997;This is an event to change the RGO good produced in this province.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+EVTOPTA999997;A better RGO for our nation.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;;;;;;;;;;;
+EVTNAME998542;ITALY CIVIL WAR !;;;;;;;;;;;;;x
+EVTDESC998542;Italy civil war is gonna start in 1 year. Get ready for it.;;;;;;;;;;;;;x

@@ -1,0 +1,259 @@
+province_event = {
+	id = 998582
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	
+	trigger = {
+		province_id = 1498		#Macao
+		owner = { 
+		NOT = { tag = CHI }
+		NOT = { tag = GXI }
+		is_civilised = yes 
+		}
+		NOT = { has_province_modifier = treaty_port_buff }
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OH Great"
+		
+		add_province_modifier = { 
+		name = treaty_port_buff
+		duration = -1
+		}
+		
+	}
+	
+}
+
+province_event = {
+	id = 998583
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	
+	trigger = {
+		province_id = 1496		#Hong Kong 
+		owner = { 
+		NOT = { tag = CHI }
+		NOT = { tag = GXI }
+		is_civilised = yes 
+		}
+		NOT = { has_province_modifier = treaty_port_buff }
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OH Great"
+		
+		add_province_modifier = { 
+		name = treaty_port_buff
+		duration = -1
+		}
+		
+	}
+	
+}
+
+province_event = {
+	id = 998584
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	
+	trigger = {
+		province_id = 1608		#Ningbo
+		owner = { 
+		NOT = { tag = CHI }
+		NOT = { tag = GXI }
+		is_civilised = yes 
+		}
+		NOT = { has_province_modifier = treaty_port_buff }
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OH Great"
+		
+		add_province_modifier = { 
+		name = treaty_port_buff
+		duration = -1
+		}
+		
+	}
+	
+}
+
+province_event = {
+	id = 998585
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	
+	trigger = {
+		province_id = 1538		#Shanghai
+		owner = { 
+		NOT = { tag = CHI }
+		NOT = { tag = GXI }
+		is_civilised = yes 
+		}
+		NOT = { has_province_modifier = treaty_port_buff }
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OH Great"
+		
+		add_province_modifier = { 
+		name = treaty_port_buff
+		duration = -1
+		}
+		
+	}
+	
+}
+
+province_event = {
+	id = 998586
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	
+	trigger = {
+		province_id = 1606		#Jiaxing
+		owner = { 
+		NOT = { tag = CHI }
+		NOT = { tag = GXI }
+		is_civilised = yes 
+		}
+		NOT = { has_province_modifier = treaty_port_buff }
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OH Great"
+		
+		add_province_modifier = { 
+		name = treaty_port_buff
+		duration = -1
+		}
+		
+	}
+	
+}
+
+province_event = {
+	id = 998587
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	
+	trigger = {
+		province_id = 1566		#Qingdao
+		owner = { 
+		NOT = { tag = CHI }
+		NOT = { tag = GXI }
+		is_civilised = yes 
+		}
+		NOT = { has_province_modifier = treaty_port_buff }
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OH Great"
+		
+		add_province_modifier = { 
+		name = treaty_port_buff
+		duration = -1
+		}
+		
+	}
+	
+}
+
+province_event = {
+	id = 998588
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	
+	trigger = {
+		province_id = 1569		#Weihaiwei
+		owner = { 
+		NOT = { tag = CHI }
+		NOT = { tag = GXI }
+		is_civilised = yes 
+		}
+		NOT = { has_province_modifier = treaty_port_buff }
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OH Great"
+		
+		add_province_modifier = { 
+		name = treaty_port_buff
+		duration = -1
+		}
+		
+	}
+	
+}
+
+province_event = {
+	id = 998589
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	
+	trigger = {
+		province_id = 1481		#Lushun
+		owner = { 
+		NOT = { tag = CHI }
+		NOT = { tag = GXI }
+		is_civilised = yes 
+		}
+		NOT = { has_province_modifier = treaty_port_buff }
+	}
+	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OH Great"
+		
+		add_province_modifier = { 
+		name = treaty_port_buff
+		duration = -1
+		}
+		
+	}
+	
+}
+
+
+
+

@@ -1,0 +1,165 @@
+country_event = {
+
+	id = 35300
+
+	trigger = {
+		OR = {
+		tag = ITA
+		tag = SIC 
+		}
+		year = 1910
+		NOT = {
+			year = 1913
+		}
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1911
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1912
+		}
+	}
+
+	title = "EVTNAME35300"
+	desc = "EVTDESC35300"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA35300" 
+		prestige = 2
+	}
+}
+
+country_event = {
+
+	id = 35301
+
+	trigger = {
+		OR = { 
+		tag = ITA
+		tag = SIC 
+		}
+		year = 1902
+		NOT = {
+			year = 1905
+			}
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1903
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1904
+		}
+	}
+
+	title = "EVTNAME35301"
+	desc = "EVTDESC35301"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA35301" 
+		prestige = 3
+	}
+}
+
+country_event = { 
+	
+	id = 998543
+	
+	trigger = { 
+		tag = JAN
+		year = 1840
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 1 
+		}
+		
+		title = "Italy Civil WAR"
+		desc = "Italy Civil WAR"
+		
+		option = { 
+			name = yes
+			ITA = {
+				country_event = { id=998542 days=0 }
+				
+		add_country_modifier = {
+		name = italy_civil_war_buff1
+		duration = 720 }
+				
+			}
+			
+			SIC = {
+				country_event = { id=998542 days=0 }
+				
+			add_country_modifier = {
+			name = italy_civil_war_buff1
+			duration = 720 }
+				
+			}
+		}
+}
+
+country_event = {
+
+	id = 998542
+	
+	title = "EVTNAME998542"
+	desc = "EVTDESC998542"
+	is_triggered_only = yes
+	
+	option =  { 
+		name = "Italy Civil War"
+		prestige = 1
+	}
+}
+	country_event = { 
+	id = 998541
+	
+	trigger = {
+	tag = SIC
+	year = 1841
+	NOT = { has_global_flag = italy_civil_war_happend }
+	}
+	
+	mean_time_to_happen = 
+	days = 1 
+	}
+	
+	title = "Italy Civil War Event !"
+	desc = "Click it for Italy Civil war "
+	
+	option = { 
+		name = "WE WILL FIGHT AS WE TOLD"
+		
+		ITA = { country_event = { id = 700337 days = 0 }
+		
+		set_global_flag = italy_civil_war_happend
+		
+	}
+	
+	

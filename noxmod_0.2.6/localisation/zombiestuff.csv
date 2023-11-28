@@ -1,0 +1,42 @@
+gtfo_kiddo_title;Kick All Players not Allied to You;;;;;;;;;;;;;x
+gtfo_kiddo_desc;Does what it says.;;;;;;;;;;;;;x
+ally_all_players_title;Ally All Player Countries in the Game;;;;;;;;;;;;;x
+ally_all_players_desc;Does what it says.;;;;;;;;;;;;;x
+end_all_wars_title;Ends All Wars Against You;;;;;;;;;;;;;x
+end_all_wars_desc;Does what it says.;;;;;;;;;;;;;x
+disable_colonial_clergy_title;Stop Hiring Colonial Clergy;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+disable_colonial_clergy_desc;We are currently hiring clergymen in colonies, click this decision to stop it;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+enable_colonial_clergy_title;Begin Hiring Colonial Clergy;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+enable_colonial_clergy_desc;We are currently not hiring clergymen in colonies, click this decision to start hiring them in colonies;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+disable_crafts_promotion_title;Disable Unaccepted Craftsmen Promotion;;;;;;;;;;;
+disable_crafts_promotion_desc;Clicking this decision will toggle off unaccepted pops from promotion to craftsmen, untill you turn it back on again.;;;;;;;;;;;
+enable_crafts_promotion_title;Enable Unaccepted Craftsmen Promotion;;;;;;;;;;;
+enable_crafts_promotion_desc;Clicking this decision will toggle on unaccepted pops from promotion to craftsmen, untill you turn it back off again.;;;;;;;;;;;
+demote_crats_title;Fire All Minority Bureaucrats;;;;;;;;;;;;;x
+demote_crats_desc;Fire all minority bureaucrats and demote them to artisans, however this may affect our administrative effiency short-term.;;;;;;;;;;;;;x
+show_extra_decisions_title;Show Extra Utility Decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+show_extra_decisions_desc;Clicking this decision will show all extra utility decisions, such as demoting unaccepted crafts/bureaucrats, setting a bureaucrat limit, releasing puppets etc.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+hide_extra_decisions_title;Hide Extra Utility Decisions;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+hide_extra_decisions_desc;Clicking this decision will hide all extra utility decisions, such as demoting unaccepted crafts/bureaucrats, setting a bureaucrat limit, releasing puppets etc.;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+start_fake_war_title;Take Direct Control over Puppet Units;;;;;;;;;;;
+start_fake_war_desc;Use this decision to declare a "fake" war with a invisible country to allow you to take control of puppet units in peacetime, or re-enable control in a war in which it is bugged.\n You will be able to peace out with it at any time with another decision.;;;;;;;;;;;
+end_fake_war_title;Return Control of Puppet Units;;;;;;;;;;;
+end_fake_war_desc;Ends the "fake" war and thus relinquishes your control of the puppets.;;;;;;;;;;;
+give_sanctions_title;Give the Target Countries Sanctions;;;;;;;;;;;;;
+give_sanctions_desc;Clicking this decision will open a menu allowing you to decide how long the sanctions for the targets will last. Use only if someone's been real naughty.;;;;;;;;;;;;;
+swap_country_title;Change Tag to the Target Country;;;;;;;;;;;
+swap_country_desc;Clicking this decision will change your tag to the target country.;;;;;;;;;;;
+swap_country_host_flag_yes_title;Enable Host Flag Following Tag Changes;;;;;;;;;;;
+swap_country_host_flag_yes_desc;Clicking this decision will make it so when you change tag, the host nation flag will follow to the nation you swap to.;;;;;;;;;;;
+swap_country_host_flag_no_title;Disable Host Flag Following Tag Changes;;;;;;;;;;;
+swap_country_host_flag_no_desc;Clicking this decision will disable the host flag following your tag swaps again.;;;;;;;;;;;
+select_country_to_swap_title;Set a Player to Tag Switch to a Target Country.;;;;;;;;;;;
+select_country_to_swap_desc;Click this decision to set a target country as the player to move to the destination tag with the next decision.;;;;;;;;;;;
+select_country_to_swap_to_title;Set The Destination Tag to a Target Country.;;;;;;;;;;;
+select_country_to_swap_to_desc;Click this decision to set a target country as the destination tag, and move the initially selected player to said tag.;;;;;;;;;;;
+reset_swap_selection_title;Reset Tag Switch Selection;;;;;;;;;;;
+reset_swap_selection_desc;Clicking this decision will reset the countries flagged for tag swaps;;;;;;;;;;;
+increase_infamy_title;Increase the Infamy of All Target Countries by 1;;;;;;;;;;;;;
+increase_infamy_desc;This decision gives all target countries 1 infamy, can be used consecutively to give a specific amount of infamy.;;;;;;;;;;;;;
+decrease_infamy_title;Decrease the Infamy of All Target Countries by 1;;;;;;;;;;;;;
+decrease_infamy_desc;This decision reduces all target countries by 1 infamy, can be used consecutively to give a specific amount of infamy.;;;;;;;;;;;;;

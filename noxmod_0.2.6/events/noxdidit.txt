@@ -1,0 +1,147 @@
+country_event = {
+
+
+	id = 98958
+
+	trigger = {
+	NOT = { exists = ITA } 
+	
+	year = 1845
+	tag = SIC
+	
+	NOT = { has_global_flag = end_of_italy }
+	
+	PAP_752 = { owner = SIC }
+	
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { 
+	days = 1 
+	}
+	
+	
+	option = {
+	name = "End of Italy" 
+	
+	ITA = { all_core = { add_core = THIS } }
+	
+	MOD_739 = { remove_core = ITA }
+	
+	TUS_744 = { remove_core = ITA }
+	
+	PAP_741 = { remove_core = ITA }
+	
+	PAP_752 = { remove_core = ITA }
+	
+	SAR_720 = { remove_core = ITA }
+	
+	SAR_765 = { remove_core = ITA } 
+	
+	SAR_466 = { remove_core = ITA }
+	
+	SIC_754 = { remove_core = ITA }
+	
+	SIC_753 = { remove_core = ITA }
+	
+	SIC_763 = { remove_core = ITA }
+	
+	854 = { add_core = THIS }
+	
+	
+	set_global_flag = end_of_italy
+	
+	}
+		
+	
+}	
+
+
+country_event = {
+
+	id = 995849
+	title = "Choose Capital"
+	desc = "Choose a new capital for $COUNTRY$"
+	is_triggered_only = yes
+
+
+
+	option = {
+		name = "New capital will be Naples"
+												
+		capital = 754
+		prestige = 5
+		
+		ai_chance = {
+			factor = 30
+		}
+		
+    }
+	
+	
+	option = {
+	name = "New capital will be Rome"
+	
+	capital = 749
+	prestige = 5
+	
+	ai_chance = { 
+		factor = 40
+		}
+	
+}
+
+	option = { 
+	name = "New capital will be Turin"
+	
+	capital = 720
+	prestige = 5 
+	
+	ai_chance = {
+		factor = 30 
+		}
+	
+}
+}
+
+country_event = {
+
+
+	id = 981331
+
+	trigger = {
+	NOT = { exists = SIC } 
+	
+	year = 1845
+	tag = ITA
+	
+	NOT = { has_global_flag = end_of_sicily }
+	
+	PAP_752 = { owner = SIC }
+	
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { 
+	days = 1 
+	}
+	
+	
+	option = {
+	name = "End of Italy" 
+	
+	SIC = { all_core = { add_core = THIS } }
+	
+	all_core = { remove_core = SIC } 
+	
+	854 = { add_core = THIS }
+	
+	
+	set_global_flag = end_of_sicily
+	
+	}
+		
+	
+}

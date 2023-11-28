@@ -1,0 +1,61 @@
+country_event = {
+
+
+	id = 981392
+
+	trigger = {
+	
+	year = 1850
+	
+	tag = JAP
+	
+	CHI = { 
+	OR =  {
+	owns = 1496
+	owns = 1566
+	owns = 1569
+	owns = 1498
+	owns = 1538
+	owns = 1606
+	owns = 1608
+	owns = 1841
+	}
+	}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = { 
+	months = 3 
+	}
+	
+	
+	option = {
+		name = "WE WILL FIGHT"
+												
+		
+		war = {
+	 target = CHI
+	 defender_goal = { casus_belli = status_quo }
+	 attacker_goal = { casus_belli = china_treaty_port }
+	 call_ally = yes
+        }
+		
+		ai_chance = {
+			factor = 80
+		}
+		
+    }
+	
+	option = { 
+	name = "We cant afford war"
+	
+	prestige = -25
+	
+		ai_chance = {
+			factor = 20
+		}
+	
+	}
+}
+

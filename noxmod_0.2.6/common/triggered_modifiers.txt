@@ -1,0 +1,219 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+ai_boost = {
+	trigger = { 
+		ai = yes
+		NOT = { has_global_flag = ai_off }
+		civilized = yes
+		NOT = { literacy = 0.9 }
+	}
+	tax_efficiency = 0.25 #25% increase
+	rgo_output = 0.20
+	administrative_efficiency_modifier = 0.1
+	rgo_throughput = 0.20
+	education_efficiency_modifier = 1.0 #100% boost
+ 	loan_interest = -0.03 #3% less interest on debts
+	icon = 9
+}
+
+ai_immigration_debuff_1 = {
+	trigger = {
+	continent = south_america
+	ai = yes
+	}
+	global_immigrant_attract = -1.5
+	icon = 9
+}
+
+ai_immigration_debuff_3 = {
+	trigger = {
+	tag = SAF 
+	ai = yes
+	}
+	global_immigrant_attract = -1
+	icon = 9
+}
+
+ai_immigration_debuff_4 = {
+	trigger = {
+	tag = AST 
+	ai = yes
+	}
+	global_immigrant_attract = -1
+	icon = 9
+}
+
+ai_immigration_debuff_2 = {
+	trigger = {
+	continent = north_america
+	NOT = { tag = USA }
+	ai = yes
+	}
+	global_immigrant_attract = -0.5
+	icon = 9
+}
+
+
+puppet_immigration_debuff = {
+	trigger = {
+	is_vassal = yes
+	ai = yes
+	}
+	global_immigrant_attract = -10
+	icon = 9
+}
+
+
+militancy_debuff_1 = {
+	trigger = {
+		AND = {
+		NOT = { continent = north_america }
+		NOT = { continent = south_america }
+		NOT = { TAG = AST }
+		NOT = { TAG = SAF }
+		ai = no
+		year = 1836
+		}
+	}
+	global_pop_militancy_modifier = 0.02
+	icon = 9
+}
+
+militancy_debuff_2 = {
+	trigger = {
+		AND = {
+		NOT = { continent = north_america }
+		NOT = { continent = south_america }
+		NOT = { TAG = AST }
+		NOT = { TAG = SAF }
+		ai = no
+		year = 1870
+		}
+	}
+	global_pop_militancy_modifier = 0.03 
+	icon = 9
+}
+
+desperate_nation  = {
+	trigger = {
+		NOT = {
+				#is_culture_group = germanic
+				total_pops = 25000 #25 thousand POPs/100 thousand population
+
+		}
+	}
+	global_population_growth = 0.01
+	mobilisation_economy_impact = -0.80
+	supply_consumption = -0.80
+	#mobilisation_size = 0.2
+	tax_efficiency = 0.50 #50% boost
+	icon = 6
+}
+microscopic_nation  = {
+	trigger = {
+		total_pops = 25000 #25 thousand POPs/100 thousand population
+		NOT = {
+				#is_culture_group = germanic
+				total_pops = 125000 #125 thousand POPs/500 thousand population
+		}
+	}
+	global_population_growth = 0.007
+	mobilisation_economy_impact = -0.75
+	supply_consumption = -0.75
+	#mobilisation_size = 0.1
+	tax_efficiency = 0.40 #40% boost
+	icon = 6
+}
+tiny_nation  = {
+	trigger = {
+		total_pops = 125000 #125 thousand POPs/500 thousand population
+		NOT = {
+			OR = {
+				year = 1900
+				#is_culture_group = germanic 
+				total_pops = 1250000 #1.25 million POPs/5 Million population
+			}
+
+		}
+	}
+	global_population_growth = 0.005
+	mobilisation_economy_impact = -0.50
+	supply_consumption = -0.50
+	#mobilisation_size = 0.04
+	tax_efficiency = 0.25 #25% boost
+	icon = 6
+}
+
+small_nation  = {
+	trigger = {
+		total_pops = 1250000 #1.25 million POPs/5 Million population
+		NOT = { 
+				#is_culture_group = germanic
+				#is_culture_group = scandinavian
+				total_pops = 3750000 #3.75 million POPs/15 million population
+		}
+	}
+	global_population_growth = 0.003
+	mobilisation_economy_impact = -0.25
+	supply_consumption = -0.25
+	#mobilisation_size = 0.03
+	tax_efficiency = 0.20 #20% boost
+	icon = 6
+}
+
+medium_nation  = {
+	trigger = {
+		total_pops = 3750000 #3.75 million POPs/15 Million population
+		NOT = { 
+			OR = {
+				year = 1900
+				civilized = no
+				#is_culture_group = germanic
+				#is_culture_group = scandinavian
+				total_pops = 7500000 #7.5 million POPs/30 Million population
+			}
+			
+		}
+	}
+	global_population_growth = 0.001
+	mobilisation_economy_impact = -0.10
+	supply_consumption = -0.10
+	#mobilisation_size = 0.01
+	tax_efficiency = 0.10 #10% boost
+	icon = 6
+}
+
+average_nation  = {
+	trigger = {
+		civilized = yes
+		
+		total_pops = 7500000 #7.5 million POPs/30 Million population 
+		NOT = { total_pops = 12500000 } #12.5 million POPs/50 million population
+		ai = no
+	}
+	supply_consumption = -0.05
+	#mobilisation_size = -0.01
+	tax_efficiency = 0.05 #5% malus
+	#max_tariff = -0.1 #10% 
+	icon = 6
+}
+
+large_nation  = {
+	trigger = {
+		civilized = yes
+		total_pops = 12500000 #12.5 million POPs/50 million population
+		NOT = { total_pops = 21250000 } #21.25 million POPs/85 million population
+		ai = no
+	}
+	#global_population_growth = -0.001
+	#supply_consumption = 0.1
+	#mobilisation_size = -0.02
+	#tax_efficiency = -0.05 #5% malus
+	#max_tariff = -0.05 #5% was 15%
+	#mobilisation_economy_impact = 0.1
+	icon = 6
+}
+
